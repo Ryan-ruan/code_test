@@ -49,6 +49,10 @@ body {
     overflow-x: hidden;
 }
 
+/*#banner-content{
+  height: 20vh !important;
+}*/
+
 p {
     line-height: 25px;
 }
@@ -2326,7 +2330,3 @@ blockquote {
     }
 
 }
-
-
-
-
