@@ -1,4 +1,4 @@
-/* Namari Landing Page v.1.1.0 Style Index - a free landing page by shapingrain.com
+/*
 
 1. Default and Reset styles
 - 1.1 Input Elements
@@ -52,6 +52,9 @@ body {
 /*#banner-content{
   height: 20vh !important;
 }*/
+header{
+  height: 100% ;
+}
 
 p {
     line-height: 25px;
@@ -300,7 +303,8 @@ section {
 }
 
 .col-38 {
-    width: 38.2%;
+    width: 65.2%;
+    height: 80vh !important;
 }
 
 /* --------- 2.1 Header --------- */
@@ -1493,7 +1497,9 @@ blockquote {
     line-height:auto;
     margin:0;
 }
-
+#contacts-wapper{
+  height: 60vh;
+}
 
 
 /*------------------------------------------------------------------------------------------*/
