@@ -26,9 +26,13 @@
 7. Footer
 
 
+
 /*------------------------------------------------------------------------------------------*/
 /* 1. Defaults & Reset of specific styles across browsers */
 /*------------------------------------------------------------------------------------------*/
+
+
+
 
 *, *:before, *:after {
     -webkit-box-sizing: border-box;
@@ -41,6 +45,7 @@ body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, blockquote
     padding: 0;
     direction: ltr;
 }
+
 
 body {
     margin: 0;
@@ -1243,7 +1248,26 @@ blockquote {
     .featherlight-loading .featherlight-previous, .featherlight-loading .featherlight-next {
         display: none;
     }
+
+    #PDF {
+        position: relative;
+        width: 800px;
+        height: 1100px;
+    }
+    #PDF iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+
 }
+
+
+
+
 
 /* Always display arrows on touch devices */
 @media only screen and (max-device-width: 1024px) {
@@ -1256,6 +1280,14 @@ blockquote {
     .featherlight-previous span {
         display: block;
     }
+
+    .video-container iframe {
+        width: 770px;
+
+    }
+
+
+
 }
 
 /* handling phones and small screens */
@@ -1277,7 +1309,23 @@ blockquote {
         margin-top: -30px;
         font-size: 40px;
     }
+
 }
+@media only screen and (max-width: 480px) {
+  #dance img{
+    display: none;
+  }
+  #PDF {
+      display: none;
+  }
+
+}
+
+
+
+
+
+
 
 /* --------- 6.5 Video ---------- */
 

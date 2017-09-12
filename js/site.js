@@ -44,6 +44,34 @@ $(document).ready(function () {
 			$('#header').removeClass('nav-solid fadeInDown');
 		}
 	});
+	/*display myResume*/
+
+	$(window).resize(function() {
+
+  if ($(this).width() < 480) {
+
+    $('#myResume').show();
+
+  	} else {
+
+    $('#myResume').hide();
+
+  	}
+
+	});
+	$(window).width(function() {
+
+  if ($(this).width() < 480) {
+
+    $('#myResume').show();
+
+  	} else {
+
+    $('#myResume').hide();
+
+  	}
+
+	});
 
 });
 
