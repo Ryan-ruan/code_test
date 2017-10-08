@@ -1,4 +1,3 @@
-# README
 
 # Edgebyte test: Redevelop the EdgeByte website homepage 
 
@@ -19,24 +18,25 @@ You do not need to complete an entire website re-design. We are more interested 
 ## Features
 
 
-* JS Libraries
-* [jQuery]
+JS Libraries
+* [jQuery](https://jQuery.com/)
 
-* CSS Framework
+CSS Framework
 * [Semantic-UI](https://semantic-ui.com/) - integrate a framework and make the site responsive 
 
-* plugin
+plugin
 * [typeit js](https://macarthur.me/typeit/) - TypeIt is a jQuery animated typing plugin .It allows you to type single or multiple strings that break lines, delete & replace each other, and it even handles HTML tags & entities
 
 
 
 ## About my code-test
 
-## Responsive
+### Responsive
 * I decided to use the framework called [Semantic-UI]. The structure of Semantic UI components is much more difficult than Bootstrap, as is the installation process. While Bootstrap provides only one basic theme, Semantic UI includes more than 20+ themes in its basic package, in addition to CSS, JS, and fonts files.
 
 
-## modern look
+### modern look
 * CSS animations/transitions
 * clean front page with a typing animation.
 * responsive design
+<del>* CSS sprites for faster image/icon loading,not many icons for this page
