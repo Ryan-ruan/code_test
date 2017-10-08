@@ -39,4 +39,4 @@ plugin
 * CSS animations/transitions
 * clean front page with a typing animation.
 * responsive design
-<del>* CSS sprites for faster image/icon loading,not many icons for this page
+* <del>CSS sprites for faster image/icon loading,not many icons for this page
