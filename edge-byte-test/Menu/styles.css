@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: auto!important;
+}
+
+body {
+  background: -moz-linear-gradient(38deg, rgba(156, 255, 167, 1) 0%, rgba(0, 128, 128, 1) 100%);
+  /* ff3.6+ */
+  background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, rgba(156, 255, 167, 1)), color-stop(100%, rgba(0, 128, 128, 1)));
+  /* safari4+,chrome */
+  background: -webkit-linear-gradient(38deg, rgba(156, 255, 167, 1) 0%, rgba(0, 128, 128, 1) 100%);
+  /* safari5.1+,chrome10+ */
+  background: -o-linear-gradient(38deg, rgba(156, 255, 167, 1) 0%, rgba(0, 128, 128, 1) 100%);
+  /* opera 11.10+ */
+  background: -ms-linear-gradient(38deg, rgba(156, 255, 167, 1) 0%, rgba(0, 128, 128, 1) 100%);
+  /* ie10+ */
+  background: linear-gradient(52deg, rgba(156, 255, 167, 1) 0%, rgba(0, 128, 128, 1) 100%);
+  /* w3c */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9CFFA7', endColorstr='#008080', GradientType=1);
+  /* ie6-9 */
+}
+
+.ui.menu .item>img {
+  width: 14em!important;
+  height: 3em!important;
+}
+
+#nav {
+  background-color: #3B3B3B;
+}
+
+#nav a {
+  color: white;
+}
+
+#nav a:hover {
+  color: #41D29B;
+}
+
+.box {
+  transition: all 1s ease-in-out;
+}
+
+.box:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+  transform: scale(0.9);
+}
+
+.box:hover img {
+  opacity: 0.8;
+  filter: alpha(opacity=80);
+  /* For IE8 and earlier */
+}
+
+.box:hover .header {
+  color: red;
+}
+
+.ui.vertical.segment {
+  border-bottom: 0px;
+}
+
+#showPage {
+  height: 100%;
+}
+
+@media only screen and (max-width: 767px) {
+  #showPage {
+    margin-top: 220px;
+  }
+}
+
+h5, h6 {
+  color: #8B8886;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+#foot {
+  background-color: #3B3B3B;
+  color: white;
+}
